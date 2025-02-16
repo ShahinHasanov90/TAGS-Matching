@@ -49,7 +49,7 @@ def create_windows_build():
 
 def create_macos_build():
     """macOS için build oluştur"""
-    print("MacOS build işlemi başlatılıyor...")
+    print("MacOS build prosesi başladılır...")
     
     # SVG'yi ICNS'e çevir
     os.system("mkdir app.iconset")
@@ -168,9 +168,11 @@ def create_macos_build():
     print("Build tamamlandı!")
 
 if __name__ == "__main__":
+    # Bu script sadece MacOS'ta çalışır!
     if not sys.platform.startswith('darwin'):
-        print("Bu script sadece MacOS'ta çalışır!")
+        print("Bu script sadəcə MacOS'ta işləyir!")
         sys.exit(1)
         
     create_macos_build()
-    print("MacOS build paketi hazır!")
+    print("Build tamamlandı!")
+    print("MacOS build paketi hazırdır!")
