@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Ana daire arka planı -->
+  <circle cx="100" cy="100" r="98" fill="#1a73e8"/>
+  <!-- İç daire (border efekti için) -->
+  <circle cx="100" cy="100" r="90" fill="#0d47a1"/>
+  
+  <!-- TAGS yazısı -->
+  <text x="100" y="95" 
+        font-family="Arial, sans-serif" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">
+    TAGS
+  </text>
+  
+  <!-- Alt yazı -->
+  <text x="100" y="125" 
+        font-family="Arial, sans-serif" 
+        font-size="18" 
+        fill="#90caf9" 
+        text-anchor="middle">
+    Matching
+  </text>
+  
+  <!-- Versiyon -->
+  <text x="100" y="145" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        fill="#64b5f6" 
+        text-anchor="middle">
+    v3.0
+  </text>
+</svg> 

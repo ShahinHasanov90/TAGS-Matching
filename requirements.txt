@@ -1,0 +1,9 @@
+customtkinter
+pandas
+matplotlib
+pyvis
+CTkMessagebox
+pillow
+numpy
+pyinstaller
+cairosvg

@@ -1,0 +1,35 @@
+# Build klasörleri
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Sanal ortam
+venv/
+.env/
+.venv/
+
+# IDE dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Geçici dosyalar
+*.spec
+*.ico
+*.icns
+*.png
+temp_network.html
+network.html
+
+# Build artefaktları
+TAGS_Windows_Build/
+TAGS_Windows_Build.zip 
