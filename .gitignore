@@ -29,7 +29,12 @@ venv/
 *.png
 temp_network.html
 network.html
+default.profraw
+neticeler.txt
+settings.json
 
 # Build artefaktları
 TAGS_Windows_Build/
-TAGS_Windows_Build.zip 
+TAGS_Windows_Build.zip
+assets/
+lib/ 
